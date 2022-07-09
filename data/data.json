@@ -1,0 +1,83 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Random Quote Generator",
+      "description": "This awesome webpage Generates random quote for daily inspiration along with a vibrant color to boost your mood! Go ahead and interact with the page by clicking the \"Show another quote\" button or allow the page to choose a quote for you. Which ever option you choose, I guarantee you will feel inspired!",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://mardb.github.io/randomQuoteGenerator/",
+      "repo": "https://github.com/mardb/randomQuoteGenerator",
+      "thumbnails": [
+        "/img/randomQuote/ramdonQuote_0.png",
+        "/img/randomQuote/ramdonQuote_1.png",
+        "/img/randomQuote/ramdonQuote_2.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Data Pagination & Filtering",
+      "description": "DOM manipulation to enhance the usability of an existing web page using  'pagination'",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://mardb.github.io/dataPaginationAndFiltering/",
+      "repo": "https://github.com/mardb/dataPaginationAndFiltering",
+      "thumbnails": [
+        "/img/pagination/pagination_1.png",
+        "/img/pagination/pagination_1.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Interactive Form",
+      "description": "Using JavaScript to enhance an interactive registration form for a Full Stack conference.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://mardb.github.io/interactive_form/",
+      "repo": "https://github.com/mardb/interactive_form",
+      "thumbnails": [
+        "/img/interactiveform/interactive_form_0.png",
+        "/img/interactiveform/interactice_form_1.png",
+        "/img/interactiveform/interactive_form_2.png",
+        "/img/interactiveform/interactive_form_3.png",
+        "/img/interactiveform/interactive_form_4.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Phrase Hunter",
+      "description": "PHRASE HUNTER, a browser-based, word guessing game built using vanilla JavaScript and Object-Oriented Programming",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://mardb.github.io/phraseHunter/",
+      "repo": "https://github.com/mardb/phraseHunter",
+      "thumbnails": [
+        "/img/phraseHunter/phraseHunter_0.png",
+        "/img/phraseHunter/phraseHunter_1.png",
+        "/img/phraseHunter/phraseHunter_2.png",
+        "/img/phraseHunter/phraseHunter_3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Contact Management System",
+      "description": "Awesome Startup is a distributed company with remote employees working all over the world. I created a smart way for employees to share contact information with each other through an internal employee directory.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://mardb.github.io/contactManagement/",
+      "repo": "https://github.com/mardb/contactManagement",
+      "thumbnails": [
+        "/img/contactSystem/contactSystem_0.png",
+        "/img/contactSystem/contactSystem_1.png"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Personal Portfolio",
+      "description": "Using server-side JavaScript to create this portfolio you are currently browsing. This portfolio site showcases the great projects I have built. It contains a modern landing page, an about page where I share contact info, information about... you guessed it, ME! I get to humble brag and show off and detail my most recent work. Enjoy!",
+      "technologies": ["Node","Express","Pug"],
+      "link": "",
+      "repo": "https://github.com/mardb/portfolio",
+      "thumbnails": [
+        "/img/portfolio/portfolio1.png",
+        "/img/portfolio/portfolio2.png",
+        "/img/portfolio/portfolio3.png"
+      ]
+    }
+  ]
+}
