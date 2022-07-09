@@ -7,8 +7,9 @@ const handle404 = (req, res, next) => {
 
   const err = new Error('err');
   err.status = 404;
-  err.message = "Hi Stranger! Looks like you got lost in the 404 galaxy! Let us help you get back to the 5th dimension."
-
+  err.message = `Looks like you got lost in the ${err.status} galaxy! Let us help you get back to the 5th dimension.`
+   res.render('error')
+  
   //pass err to global err
   next(err);
 }

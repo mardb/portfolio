@@ -16,18 +16,6 @@ router.get( '/', ( req, res, next) => {
 // res.send('this is a test for the home page');
 });
 
-//custom error route
-// router.get('/error', (req, res) => {
-//   //log statement
-//   // console.log('Handling request to custom "error" route, "/error"')
-// });
-
-
-  //create custom err and print err to page 
-// const err = new Error('err');
-// err.message = 'Oops, it looks like an error ocurred.';
-// throw err;
-// });
 
 //about page
 router.get('/about',(req, res) => {
@@ -45,6 +33,8 @@ router.get('/projects/:id', (req, res, next)=>{
     res.sendStatus(404)
   }
   });
+
+//   //handles ALL *
 
 
 
