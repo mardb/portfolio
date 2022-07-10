@@ -1,7 +1,6 @@
 const express = require('express');
 
 const app = express();
-
 const port = 3000;
 const path = require('path');
 
@@ -16,16 +15,6 @@ app.set('view engine', 'pug')
 
 //static middleware
 app.use(express.static('public'))
-
-// //Import 404 and global error handlers
-// const errorHandlers = require('./errorHandler')
-
-
-// //error handling 
-// app.use(errorHandlers.handle404)
-// app.use(errorHandlers.handleGlobalError)
-
-// handles ALL *
 
 // 404 error handler
 app.use((req, res, next) => {

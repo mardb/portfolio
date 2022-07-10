@@ -8,12 +8,7 @@ const {projects} = require('./data/data.json');
  * GET home page
  */
 router.get( '/', ( req, res, next) => {
-  // console.log('This is home page')
   res.render('index', {projects})
-  // res.send('This is home page');
-
-//send  to page
-// res.send('this is a test for the home page');
 });
 
 
@@ -33,10 +28,6 @@ router.get('/projects/:id', (req, res, next)=>{
     res.sendStatus(404)
   }
   });
-
-//   //handles ALL *
-
-
 
 //exports router
 module.exports = router;
