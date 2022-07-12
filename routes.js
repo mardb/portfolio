@@ -25,7 +25,7 @@ router.get('/projects/:id', (req, res, next)=>{
   if(project){
     res.render('project', {project})
   } else {
-    res.sendStatus(404)
+    throw new Error('Looks like you navigated to the wrong dimension.')
   }
   });
 
